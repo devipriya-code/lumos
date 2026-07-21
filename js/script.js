@@ -39,7 +39,8 @@ buildTicker();
 const heroSlides = [
   {
     eyebrow: "Full-funnel digital marketing",
-    headline: "Ideas don't spread<br>in the dark.<br>We light <em>the way.</em>",
+    headline:
+      "Ideas don't spread<br>in the dark.<br>We light <em>the way.</em>",
     sub: "Lumos Media plans, runs, and reports on marketing that compounds — SEO, paid media, content, and lifecycle, all pointed at the same number: revenue.",
   },
   {
@@ -49,7 +50,8 @@ const heroSlides = [
   },
   {
     eyebrow: "Content that compounds",
-    headline: "Rankings don't<br>happen by accident —<br>they're <em>built.</em>",
+    headline:
+      "Rankings don't<br>happen by accident —<br>they're <em>built.</em>",
     sub: "Technical SEO, topic clusters, and editorial calendars designed to rank — and to actually get read.",
   },
 ];
@@ -118,7 +120,8 @@ window.addEventListener("scroll", () => {
 // 2. Deploy/open the site and submit the form once yourself.
 // 3. FormSubmit will email that address an "activation" link — click it.
 //    Every submission after that lands straight in the inbox.
-const MAILER_ENDPOINT = "https://formsubmit.co/ajax/devipriyas506@gmail.com";
+const MAILER_ENDPOINT =
+  "https://formsubmit.co/ajax/c5cc77d6bd0f97a34f459e974e208d07";
 
 const contactForm = document.getElementById("contactForm");
 if (contactForm) {
